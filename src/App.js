@@ -1,9 +1,11 @@
-
+import React from "react";
+import NavBar from "./components/navbar/NavBar";
+import './app.css'
 
 function App() {
   return (
     <div className="App">
-     <h1>hello there...Let's make a netflix clone.Keep Learning......</h1>
+     <NavBar/>
     </div>
   );
 }
