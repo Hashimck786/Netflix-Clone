@@ -16,4 +16,15 @@
 .row-image{
   max-height: 250px;
   margin-right: 10px;
+  cursor: pointer;
+}
+.smallPoster{
+  max-height: 150px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.row-image:hover,
+.smallPoster:hover {
+  transform: scale(1.1);
 }
